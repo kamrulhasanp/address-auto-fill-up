@@ -3,7 +3,7 @@
 //     return(
 //         <>
 //         <ScriptLoader
-//         googleMapsApiKey = "AIzaSyDULiH9Fh7szOQ2lE2OOTNhXfId-jV8frs" />
+//         googleMapsApiKey = "" />
 //         <Component {...pageProps} />
 //         </>
         
