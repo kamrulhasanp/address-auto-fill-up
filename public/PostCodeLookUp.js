@@ -13,7 +13,7 @@ function PostcodeLookup() {
     useEffect(() => {
         const fetchLOcationData = async () =>{
             try{
-                const response = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=${postcode},Japan&key=AIzaSyDULiH9Fh7szOQ2lE2OOTNhXfId-jV8frs`);
+                const response = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=${postcode},Japan&key=`);
                 const data = await response.json();
                 console.log(data)
                 if(data.status == 'OK') {
