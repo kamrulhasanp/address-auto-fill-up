@@ -11,9 +11,7 @@ const GoogleMapAutoPlace = () => {
 
     const handleFindClick = async() => {
         try{
-            const response = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?components=postal_code:${postcode},japan&key=AIzaSyDULiH9Fh7szOQ2lE2OOTNhXfId-jV8frs
-
-            `)
+            const response = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?components=postal_code:${postcode},japan&key=)
             const data = await response.json();
             const { results } = data;
             console.log(data);
